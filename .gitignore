@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Database
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/*.db-journal
+
+# Backups
+backups/
+
+# Environment
+.env
+
+# Test artifacts
+tests/*.sqlite
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temp
+tmp/
+temp/
